@@ -537,7 +537,6 @@ html{
 }
 .slider__card_title{
     color:white;
-  
     font-size: 24px;
     font-weight: 300;
     line-height: 29px;
@@ -547,8 +546,6 @@ html{
     margin-top: 10px; 
 }
 .slider__card_text{
-    
-    
     font-size: 18px;
     font-weight: 300;
     line-height: 21px;
@@ -559,7 +556,6 @@ html{
 .swiper__button_prev{
     width: 27px;
     height: 24px;
-    
     position: absolute;
     padding: 25px;
     transform: translateX(30px);
@@ -568,7 +564,6 @@ html{
 .swiper__button_next{
     width: 30px;
     height: 30px;
-
     padding: 25px;
     transform: translate(-30px,0px);
 }
