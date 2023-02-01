@@ -75,14 +75,17 @@ function TeleportToTop(){
     imgFour.classList.add('header__circle_item-four-anim');
   }
   function openBurgerMenu(){
+    
     let value = 'open';
     const button = document.querySelector('.nav__burger_box');
     const content = document.querySelector('.nav__content');
     const menu = document.querySelector('.nav__menu');
     const box = document.querySelector('.nav__burger_box');
+    
     const itemFirst = document.querySelector('.nav__burger_item-first');
     const itemSecond = document.querySelector('.nav__burger_item-second');
     const itemThird = document.querySelector('.nav__burger_item-third');
+    
     button.addEventListener('click', () => {
       if(value === 'open'){
         content.classList.add('nav__content-Burger');
