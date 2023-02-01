@@ -3,7 +3,7 @@ const navButtonRu = document.querySelector('.nav__change_text-RU');
 const navButtonEn = document.querySelector('.nav__change_text-EN');
 
 import {slider} from "./slider.js";
-import {TeleportToTop,changeBtnPosition,ReplaceLineOnNav,moveNavCircle,} from './navscript.js';
+import {TeleportToTop,changeBtnPosition,ReplaceLineOnNav,moveNavCircle,openBurgerMenu} from './navscript.js';
 import {animFooter,animTextFooter} from './footerscript.js';
 import {change, changeLang} from './changeLang.js';
 import {moveHeaderText,scaleCardsItem,scaleHeaderCircle,rotateAboutCircle,returnHeaderImage} from './sectionscript.js';
@@ -26,6 +26,7 @@ animTextFooter();
 change();
 slider();   
 returnHeaderImage();
+openBurgerMenu();
 export {btnChange,navButtonEn,navButtonRu};
 
 
