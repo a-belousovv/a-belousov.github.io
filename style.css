@@ -561,11 +561,19 @@ html{
     transform: translateX(30px);
     
 }
+.slider__button_prev img{
+    width: 27px;
+    height: 24px;
+}
 .swiper__button_next{
     width: 30px;
     height: 30px;
     padding: 25px;
     transform: translate(-30px,0px);
+}
+.slider__button_next img{
+    width: 27px;
+    height: 24px;
 }
 .swiper-button-next{
     display: none;
