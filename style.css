@@ -1315,7 +1315,8 @@ html{
         color:white;    
     }
     .swiper__button_prev{
-       
+        width: 27px;
+        height: 23px;
         background:none;
         position: absolute;
         padding: 25px;
@@ -1324,7 +1325,8 @@ html{
     }
     
     .swiper__button_next{
-        
+        width: 27px;
+        height: 23px;
         background:none;
         padding: 25px;
         transform: translate(0px,0px);
