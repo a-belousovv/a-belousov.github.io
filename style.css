@@ -1274,7 +1274,7 @@ html{
         flex-direction: column;
         align-items:center;
         justify-content: center;
-        height: 600px;
+        height: 440px;
     }
     .slider__title{
         text-align: center;
@@ -1291,7 +1291,7 @@ html{
     
     .slider__card_img{
         width: 100%;
-        height: 340px;
+        height: 240px;
     }
     .slider__card_right{
         display: flex;
@@ -1966,7 +1966,7 @@ html{
         flex-direction: column;
         align-items:center;
         justify-content: center;
-        height: 600px;
+        height: 440px;
     }
     .slider__title{
         text-align: center;
@@ -1983,7 +1983,7 @@ html{
     
     .slider__card_img{
         width: 100%;
-        height: 340px;
+        height: 240px;
     }
     .slider__card_right{
         display: flex;
