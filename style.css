@@ -832,9 +832,9 @@ html{
         width: 30px;
         height: 30px;
         position: absolute;
-        top: 26%;
-        right: 22.7%;
-        opacity: 0;
+        top: 29%;
+        right: 21.7%;
+        opacity: 1;
         z-index: 5;
     }
 
@@ -852,7 +852,7 @@ html{
         
     }
     .nav__burger_button:checked{
-        top: 7.7%;
+        top: 9.6%;
 
     }
     .nav__burger_button:checked~ .nav__menu .nav__burger_box::before{
@@ -883,7 +883,7 @@ html{
 
     }
     .nav__burger_button:checked~ .nav__menu .nav__burger_box{
-        transform: translate(200px,-654px);
+        transform: translate(215px,-560px);
     }
     .nav__burger_button:checked~ .nav__menu .nav__content{
         display: flex;
