@@ -737,9 +737,9 @@ html{
 @media (max-width: 768px){     
    
 }
-@media (max-width: 375px){
+@media (max-width: 390px){
     .nav{
-        max-width: 375px;
+        max-width: 390px;
         padding: 0px 0px;
         
         position: relative;
@@ -993,7 +993,7 @@ html{
         
     }
     .header__img{
-        width: 375px;
+        width: 390px;
         height: 575px;
         opacity: 1;
         
@@ -1069,7 +1069,7 @@ html{
         transform: scale(-0.6   ,0.6) translate(25px,-250px);
     }
     .cards{
-        width: 375px ;
+        width: 390px ;
         height: fit-content;
         padding-bottom: 40px ;
         padding-top: 70px;
@@ -1150,7 +1150,7 @@ html{
         
     }
     .about{
-        width: 375px;
+        width: 390px;
         height: fit-content;
         padding-bottom:114px;
         padding-top: 0px;
@@ -1254,7 +1254,7 @@ html{
         transform: translateX(0px);
     }
     .slider{
-        width: 375px;
+        width: 390px;
         height: fit-content;
         padding: 40px 30px;
         background-color: #2d2d2d ;
@@ -1286,7 +1286,7 @@ html{
     
     .slider__card_img{
         width: 100%;
-        height: 375px;
+        height: 390px;
     }
     .slider__card_right{
         display: flex;
@@ -1356,7 +1356,7 @@ html{
         padding: 0px 40px;
     }
     .footer{
-        width: 375px;
+        width: 390px;
         height: fit-content;
         padding: 50px 0px;
         background-color: #414141;
