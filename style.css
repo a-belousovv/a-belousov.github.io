@@ -830,7 +830,7 @@ html{
         position: absolute;
         top: 29%;
         right: 21.7%;
-        opacity: 1;
+        opacity: 0;
         z-index: 5;
     }
 
