@@ -1315,13 +1315,16 @@ html{
         color:white;    
     }
     .swiper__button_prev{
-        width: 0px;
-        height: 0px;
+       
         background:none;
         position: absolute;
         padding: 25px;
         transform: translateX(0px);
         
+    }
+    .swiper__button_prev img{
+        width: 27px;
+        height: 24px;
     }
     .swiper__button_next{
         width: 0px;
@@ -1329,6 +1332,10 @@ html{
         background:none;
         padding: 25px;
         transform: translate(0px,0px);
+    }
+    .swiper__button_next img{
+        width: 27px;
+        height: 24px;
     }
     
     .swiper .swiper__button_next::after{
