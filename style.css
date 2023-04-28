@@ -470,7 +470,7 @@ html{
 }
 
 .about__content{
-    height: 750px;
+    
     z-index: 4;
     display: flex;
     flex-direction: column;
@@ -785,7 +785,6 @@ html{
     }
     .nav__logo_text{
         margin-left: 15px;
-        font-family: 'Montserrat Alternates', sans-serif;
         font-size: 15px;
         font-weight: 700;
         line-height: 18px;
@@ -797,18 +796,7 @@ html{
         display: none;
         
     }
-
-
-
-    
-
-
-
-
-
-    
     .nav__content_item{
-        font-family: 'Montserrat Alternates', sans-serif;
     
         font-size: 25px;
         font-weight: 300;
@@ -820,7 +808,6 @@ html{
         text-decoration: none;
     }
     .nav__content_item-active{
-        font-family: 'Montserrat Alternates', sans-serif;
         
         font-size: 25px;
         font-weight: 300;

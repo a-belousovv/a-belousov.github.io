@@ -17,13 +17,13 @@ const valueRu = {
     sliderCardTextSecond:'Реализован слайдер и верcтка некоторых секций на языке JavaScript' ,
     sliderCardTitleThird:'Сайт помощи заработка в интернете' ,
     sliderCardTextThird:'Реализована работа модальных окон и некоторых секций на языке JavaScript' ,
+    sliderCardTitleFour: 'Сайт онлайн вакцинации',
+    sliderCardTextFour: 'Реализована работа карточке языком JavaScript с работой JSON',
     footerHome: 'Главная',
     footerAbout:'Обо Мне' ,
     footerPortfolio: 'Портфолио',
     footerContact:'Контакты' ,
-    footerItemFirst:'Контакты:',
- 
-
+    footerItemFirst:'Контакты:'
 };
 const valueEn = {
     
@@ -45,11 +45,13 @@ const valueEn = {
     sliderCardTextSecond: 'Implemented slider and layout of some sections in JavaScript',
     sliderCardTitleThird: 'Website for making money online',
     sliderCardTextThird: 'Implemented modal windows and some sections in JavaScript',
+    sliderCardTitleFour: 'Online vaccination website',
+    sliderCardTextFour: 'Implemented JavaScript cards with JSON operation',
     footerHome: 'Home',
     footerAbout: 'About me',
     footerPortfolio:'Portfolio' ,
     footerContact: 'Contact',
-    footerItemFirst:'Contact:',
+    footerItemFirst:'Contact:'
     
   };
 
@@ -73,6 +75,8 @@ const selectors = {
     sliderCardTextSecond: '.slider__card_text-second',
     sliderCardTitleThird: '.slider__card_title-third',
     sliderCardTextThird: '.slider__card_text-third',
+    sliderCardTitleFour: '.slider__card_title-four',
+    sliderCardTextFour: '.slider__card_text-four',
     footerHome: '.footer__left_item-first',
     footerAbout: '.footer__left_item-second',
     footerPortfolio:'.footer__left_item-third' ,
