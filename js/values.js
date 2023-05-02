@@ -19,6 +19,12 @@ const valueRu = {
     sliderCardTextThird:'Реализована работа модальных окон и некоторых секций на языке JavaScript' ,
     sliderCardTitleFour: 'Сайт онлайн вакцинации',
     sliderCardTextFour: 'Реализована работа карточке языком JavaScript с работой JSON',
+    sliderCardTitleFive: 'Сайт онлайн школы',
+    sliderCardTextFive: 'Реализована базовая верстка c большим количеством блоков и анимациями',
+    sliderCardTitleSix: 'Сайт турагентства',
+    sliderCardTextSix: 'Реализована верстка c анимациями',
+    sliderCardTitleSeven: 'Сайт психологической помощи онлайн',
+    sliderCardTextSeven:'Реализована работа скриптов JavaScript и "аккордеон"',
     footerHome: 'Главная',
     footerAbout:'Обо Мне' ,
     footerPortfolio: 'Портфолио',
@@ -26,7 +32,6 @@ const valueRu = {
     footerItemFirst:'Контакты:'
 };
 const valueEn = {
-    
     navHome: 'Home',
     navAbout: 'About me',
     navPortfolio: 'Portfolio' ,
@@ -47,16 +52,20 @@ const valueEn = {
     sliderCardTextThird: 'Implemented modal windows and some sections in JavaScript',
     sliderCardTitleFour: 'Online vaccination website',
     sliderCardTextFour: 'Implemented JavaScript cards with JSON operation',
+    sliderCardTitleFive: 'Online school website',
+    sliderCardTextFive: 'Implemented basic layout with a large number of blocks and animations',
+    sliderCardTitleSix: 'Travel agency website',
+    sliderCardTextSix: 'Implemented layout with animations',
+    sliderCardTitleSeven: 'Online psychological help website',
+    sliderCardTextSeven:'Implemented the work of JavaScript scripts and "accordion"',
     footerHome: 'Home',
     footerAbout: 'About me',
     footerPortfolio:'Portfolio' ,
     footerContact: 'Contact',
     footerItemFirst:'Contact:'
-    
   };
 
 const selectors = {
-    
     navHome: '.nav__content_item-first',
     navAbout: '.nav__content_item-second',
     navPortfolio: '.nav__content_item-third' ,
@@ -77,13 +86,17 @@ const selectors = {
     sliderCardTextThird: '.slider__card_text-third',
     sliderCardTitleFour: '.slider__card_title-four',
     sliderCardTextFour: '.slider__card_text-four',
+    sliderCardTitleFive: '.slider__card_title-five',
+    sliderCardTextFive: '.slider__card_text-five',
+    sliderCardTitleSix: '.slider__card_title-six',
+    sliderCardTextSix: '.slider__card_text-six',
+    sliderCardTitleSeven: '.slider__card_title-seven',
+    sliderCardTextSeven:'.slider__card_text-seven',
     footerHome: '.footer__left_item-first',
     footerAbout: '.footer__left_item-second',
     footerPortfolio:'.footer__left_item-third' ,
     footerContact: '.footer__left_item-four',
     footerItemFirst:'.footer__center_text-first',
-    
-    
 };
 
 export {selectors,valueEn,valueRu};

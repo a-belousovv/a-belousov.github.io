@@ -28,38 +28,21 @@
 
     btnChange.addEventListener('click', () => {
       if(navButtonRu.classList.contains('show-text') && navButtonEn.classList.contains('hide-text') ){
+        let count = 0;
         let value = Object.values(valueRu);
         let selector = Object.values(selectors);
-        // console.log(selector.length);
-        // console.log(value.length);
-        for (let i = 0; i <= value.length; i++){
-          let word = document.querySelector(selector[i]).textContent = `${value[i] + ''}`;
-          
-        }
-        
-        
-        
-        
-        
-       
-       
-       
-       
-       
-         // for(let i = 0; i <= selectors.lenght; i++ ){
-        //   selector.forEach((select) => {
-        //     value.forEach((val) => {
-        //       document.querySelector(select).textContent(val);
-        //     });
-        //   });
-        // }
+          for (let i = 0; i <= selector.length - 1; i++){
+            document.querySelector(selector[i]).textContent = `${value[i] + ''}`;
+            
+          }
       }   
       else if(navButtonRu.classList.contains('hide-text') && navButtonEn.classList.contains('show-text') ){
+        let count = 0;
         let value = Object.values(valueEn);
         let selector = Object.values(selectors);
-        for (let i = 0; i <= value.length; i++){
-          let word = document.querySelector(selector[i]).textContent = `${value[i] + ''}`;
-          word.trim();
+        for (let i = 0; i <= selector.length - 1; i++){
+          document.querySelector(selector[i]).textContent = `${value[i] + ''}`;
+          
         }
       }
 

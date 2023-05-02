@@ -4,7 +4,7 @@ function TeleportToTop(){
     button.forEach((item) => {
       item.addEventListener("click", () =>{
         window.scrollTo(0,0);
-        button.classList.add('footer__right_img-unanim');
+        item.classList.add('footer__right_img-unanim');
       } );
     });
     
@@ -32,13 +32,13 @@ function TeleportToTop(){
           thirdItem.classList.remove('nav__content_item-active');
           fourItem.classList.remove('nav__content_item-active');
         }
-        else if(window.scrollY > 2816 && window.scrollY < 3200 ){
+        else if(window.scrollY > 2816 && window.scrollY < 3025 ){
           firstItem.classList.remove('nav__content_item-active');
           secondItem.classList.remove('nav__content_item-active');
          thirdItem.classList.add('nav__content_item-active');
           fourItem.classList.remove('nav__content_item-active');
         }
-        else if(window.scrollY > 3200 && window.scrollY <= 3456){
+        else if(window.scrollY > 3025 && window.scrollY <= 3456){
           firstItem.classList.remove('nav__content_item-active');
           secondItem.classList.remove('nav__content_item-active');
           thirdItem.classList.remove('nav__content_item-active');
