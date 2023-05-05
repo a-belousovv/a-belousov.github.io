@@ -649,6 +649,9 @@ html{
     flex-direction: column;
     align-items:flex-start;
  
+}
+.footer__center_text{
+    margin-bottom: 18px;
     color:#E4E4E4;    
     text-decoration: none;
     
@@ -657,10 +660,6 @@ html{
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-    
-}
-.footer__center_text{
-    margin-bottom: 18px;
     
     
 }
